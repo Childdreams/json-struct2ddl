@@ -11,3 +11,13 @@ ch202 -q "select data from T" | gojsonstruct > t_struct.go && go run .
 --filename 保存的文件名称
 --debug 不打印输出
 ```
+
+### 20230224
+
+- 可以生成python文件
+- 增加 source_table 参数 生成python文件的input、output、mv 表名
+- 增加 python_class_name 生成python的类名称
+
+### 20230314
+- 增加V3-V4版本 v3版本是V2版本速度的5倍 V4版本是V3的5倍
+- V4版本直接生成golang代碼
